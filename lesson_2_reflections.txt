@@ -1,0 +1,6 @@
+what happens when you initialize a repository? Why do you need to do it?
+  You create a subdirectory called .git that will contain the meta data.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+  The staging area is a list of files that are set to be committed, but haven't been yet, it is also a subset of the working directory. It offers the value of making sure you know what is being tracked before you commit a change.
