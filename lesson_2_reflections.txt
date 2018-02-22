@@ -7,3 +7,6 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
   We can check that the staging area isnt that different from the last commit? I'm not so sure about this. You can do git diff and see how different what you are working is to the thing that was last committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  if you want to experiment with a new feature or direction, but keep a version that works. Branches allow you to modify code in parallel groups but keeping a working thing
