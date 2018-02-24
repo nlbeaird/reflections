@@ -20,3 +20,6 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches together combines all their changes that have happened since the last common parent. The diagram indicates that the merged commit has two parents that evolved along different paths and were brought together
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  automatic merging saves time and work, but is 'stupid' in that it can't make logical decisions. manual merge takes more work, but you can be sure that the merged code contains the correct info
